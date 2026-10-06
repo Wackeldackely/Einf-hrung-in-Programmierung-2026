@@ -11,4 +11,6 @@ zeit = input("Bitte gib die Laufzeit in Jahren ein")
 zeit = int(zeit)
 K = anfangskapital * (1 + p) ** zeit
 
-print(f"")
+print(
+    f"--- ZINSRECHNER --- \n Anfangskapital: {anfangskapital} \n Euro Zinssatz: {zinssatz}% \n Laufzeit: {zeit} Jahre \n \n Nach 10 Jahren beträgt das Endkapital: {K} Euro."
+)
