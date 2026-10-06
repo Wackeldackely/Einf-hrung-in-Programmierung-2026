@@ -4,4 +4,7 @@
 minutenzahl = input("Bitte gib die Anzahl der Minuten ein")
 minutenzahl = int(minutenzahl)
 stundenzahl = minutenzahl // 60
-print(f" {minutenzahl} Minuten entsprechen {stundenzahl} Stunden")
+restzeit = minutenzahl % 60
+print(
+    f" {minutenzahl} Minuten entsprechen {stundenzahl} Stunden und {restzeit} Minuten"
+)
