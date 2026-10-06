@@ -6,8 +6,8 @@ personenzahl = int(personenzahl)
 geld = input("Wie hoch war die Rechensumme (in Euro)?")
 geld = float(geld)
 summe = geld // personenzahl
-rest =
-print(f" --- KOSTENAUFTEILUNG --- {\n }
-Bei {personenzahl} Personen und einer Rechnungssumme von {geld} Euro: \n 
-Jede Person zahlt mindestens {summe} Euro. \n
+rest = geld % personenzahl
+print(f" --- KOSTENAUFTEILUNG --- 
+Bei {personenzahl} Personen und einer Rechnungssumme von {geld} Euro:  
+Jede Person zahlt mindestens {summe} Euro. 
 Es verbleibt ein Rest von {rest} Cent.")
