@@ -3,3 +3,6 @@
 
 personenzahl = input("Wie viele Personen teilen sich die Kosten?")
 personenzahl = int(personenzahl)
+geld = input("Wie hoch war die Rechensumme (in Euro)?")
+geld = int(geld)
+print(f"")
