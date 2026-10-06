@@ -5,7 +5,7 @@ personenzahl = input("Wie viele Personen teilen sich die Kosten?")
 personenzahl = int(personenzahl)
 geld = input("Wie hoch war die Rechensumme (in Euro)?")
 geld = float(geld)
-summe = float(geld // personenzahl)
+summe = float(geld / personenzahl)
 rest = float(geld % personenzahl)
 
 print(
