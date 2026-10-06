@@ -12,5 +12,5 @@ zeit = int(zeit)
 K = float(anfangskapital * (1 + p) ** zeit)
 
 print(
-    f"--- ZINSRECHNER --- \n Anfangskapital: {anfangskapital} \n Euro Zinssatz: {zinssatz}% \n Laufzeit: {zeit} Jahre \n \n Nach 10 Jahren beträgt das Endkapital: {K} Euro."
+    f"--- ZINSRECHNER --- \n Anfangskapital: {anfangskapital} Euro \n Zinssatz: {zinssatz}% \n Laufzeit: {zeit} Jahre \n \n Nach 10 Jahren beträgt das Endkapital: {K} Euro."
 )
