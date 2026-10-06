@@ -11,3 +11,4 @@ rest = float(geld % personenzahl)
 print(
     f" ---Kostenaufteilung--- \n Bei {personenzahl} Personen und einer Rechnungssumme von {geld} Euro: \n Jede Person zahlt mindestens {summe} Euro. \n Es verbleibt ein Rest von {rest} Cent."
 )
+# wie kann man auf 2 nachkommerstellen runden für geldbeträge? denn so kommt man nicht auf die 4 übrigen cent
