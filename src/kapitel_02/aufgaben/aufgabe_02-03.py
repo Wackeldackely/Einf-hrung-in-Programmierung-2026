@@ -1,6 +1,7 @@
 # Aufgabe 02-03
 #  TODO: Ihre Lösung hier
 # nur  * ist einfach nur normales multiplizieren
+# wie kann man auf nur 2 nachkommastellen runden??????????
 
 anfangskapital = input("bitte gib das Anfangskapital in Euro ein:")
 anfangskapital = int(anfangskapital)
