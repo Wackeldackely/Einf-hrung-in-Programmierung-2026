@@ -5,13 +5,13 @@
 
 anfangskapital = input("bitte gib das Anfangskapital in Euro ein:")
 anfangskapital = int(anfangskapital)
-zinssatz = input("Bitte gib den inssatz in Prozent an:")
+zinssatz = input("Bitte gib den Zinssatz in Prozent an:")
 zinssatz = int(zinssatz)
 p = float(zinssatz / 100)
 zeit = input("Bitte gib die Laufzeit in Jahren ein")
 zeit = int(zeit)
 K = float(anfangskapital * (1 + p) ** zeit)
-
+K_gerundet = 
 print(
     f"--- ZINSRECHNER --- \n Anfangskapital: {anfangskapital} Euro \n Zinssatz: {zinssatz}% \n Laufzeit: {zeit} Jahre \n \n Nach 10 Jahren beträgt das Endkapital: {K} Euro."
 )
