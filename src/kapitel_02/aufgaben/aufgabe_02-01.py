@@ -3,6 +3,7 @@
 
 minutenzahl = input("Bitte gib die Anzahl der Minuten ein")
 minutenzahl = int(minutenzahl)
+#
 stundenzahl = minutenzahl // 60
 restzeit = minutenzahl % 60
 print(
