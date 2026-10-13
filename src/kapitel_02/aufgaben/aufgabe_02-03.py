@@ -15,3 +15,4 @@ K_gerundet = round(K, 2)
 print(
     f"--- ZINSRECHNER --- \n Anfangskapital: {anfangskapital} Euro \n Zinssatz: {zinssatz}% \n Laufzeit: {zeit} Jahre \n \n Nach 10 Jahren beträgt das Endkapital: {K_gerundet} Euro."
 )
+# print(f"{k:.2}) das ist die genaueste art zu runden
