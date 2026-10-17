@@ -16,7 +16,7 @@ elif operation == "*":
     ergebnis = float(zahl1 * zahl2)
 
 elif operation == "/":
-    if zahl2 == "0":
+    if zahl2 == 0:
         print("Fehler: Division durch 0 ist nicht definiert!")
     else:
         ergebnis = float(zahl1 / zahl2)
