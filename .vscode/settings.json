@@ -66,5 +66,6 @@
   "files.watcherExclude": {
     "**/.venv/**": true,
     "**/*.egg-info/**": true
-  }
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }
