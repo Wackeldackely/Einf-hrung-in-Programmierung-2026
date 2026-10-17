@@ -22,4 +22,4 @@ if zahl2 == "0":
     print("Fehler: Division durch 0 ist nicht definiert!")
 
 
-print(f"Das Ergebnis von {zahl1} {operation} {zahl2} ist: {ergebnis}")
+print(f"Das Ergebnis von {zahl1} {operation} {zahl2} ist: {ergebnis:.2f}")
