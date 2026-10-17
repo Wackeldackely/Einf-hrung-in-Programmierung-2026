@@ -3,4 +3,7 @@
 
 zahl1 = float(input("Gib die erste Zahl ein:"))
 zahl2 = float(input("Gib die zweite Zahl ein:"))
-operation = input("Gib die Operation ein (+,):")
+operation = input("Gib die Operation ein (+, -, *, /):") 
+
+if operation == "+":
+    
