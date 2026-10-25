@@ -23,6 +23,7 @@ elif operation == "/":
 
 print(f"Das Ergebnis von {zahl1} {operation} {zahl2} ist: {ergebnis:.2f}")
 
+# man müsste bei jedem elif unter die Bestimmung des ergebnisses noch den print Befehl hinzufügen, damit bei einer Fehlermeldung von /0 nicht noch das ergebins neu aufgeschrieben wird, sondern nur die Fehlermeldung angezeigt wird
 
 # elif operation == "/":
 # ergebnis = float(zahl1 / zahl2)
