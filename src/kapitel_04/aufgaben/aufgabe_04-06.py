@@ -30,6 +30,8 @@ gbanzahl = int(input("Anzahl Großbuchstabe"))
 number = int(input("Anzahl Zahlen"))
 szanzahl = int(input("Anzahl Sonderzeichen"))
 
+passwort = []
+
 for x in range(kbanzahl):
     neukb = random.choice(KLEINBUCHSTABEN)
 
@@ -42,9 +44,8 @@ for x in range(number):
 for x in range(szanzahl):
     neusz = random.choice(SONDERZEICHEN)
 
-passwort = [neukb, neugb, neunumber, neusz]
 
-"".join(passwort)
+liste = "".join(passwort)
 kombi = random.shuffle(passwort)
 print(
     f"--- Passwort-Generator --- \n Anzahl Kleinbuchstaben: {kbanzahl} \n Anzahl Großbuchstaben: {gbanzahl} \n Anzahl Zahlen: {number} \n Anzahl Sonderzeichen: {szanzahl} \n \n"
