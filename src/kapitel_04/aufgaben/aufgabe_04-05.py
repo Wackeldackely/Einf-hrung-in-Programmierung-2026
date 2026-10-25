@@ -10,9 +10,9 @@
 maß = 15
 
 for y in range(maß):
-
     for x in range(maß):
         if 0 <= x <= 4 or 10 <= x <= 14:
             print(" ", end="")
 
-        else 5 <= x <= 9
+        else:
+            print("+", end="")
