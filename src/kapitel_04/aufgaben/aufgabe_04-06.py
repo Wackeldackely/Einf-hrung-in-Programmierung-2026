@@ -22,3 +22,17 @@ kbanzahl = int(input("Anzahl Kleinbuchstaben"))
 gbanzahl = int(input("Anzahl Großbuchstabe"))
 number = int(input("Anzahl Zahlen"))
 szanzahl = int(input("Anzahl Sonderzeichen"))
+
+for x in range(kbanzahl):
+    neukb = random.choice(KLEINBUCHSTABEN)
+
+for x in range(gbanzahl):
+    neugb = random.choice(GROSSBUCHSTABEN)
+
+for x in range(number):
+    neunumber = random.choice(ZAHLEN)
+
+for x in range(szanzahl):
+    neusz = random.choice(SONDERZEICHEN)
+
+"".join(passwort)
