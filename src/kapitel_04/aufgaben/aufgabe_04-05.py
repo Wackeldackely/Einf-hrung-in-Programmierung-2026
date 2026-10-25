@@ -14,8 +14,10 @@ for y in range(maß):
         if 0 <= x <= 4 or 10 <= x <= 14:
             print(" ", end="")
 
-        elif x > 14:
-            print("\n")
+        # elif x > 14:
+        #    print("\n")
 
         else:
             print("+", end="")
+
+    print(" ")
