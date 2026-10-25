@@ -17,3 +17,8 @@ print(SONDERZEICHEN)
 print(random.choice(SONDERZEICHEN))
 
 #  TODO: Deine Lösung hier:
+
+kbanzahl = int(input("Anzahl Kleinbuchstaben"))
+gbanzahl = int(input("Anzahl Großbuchstabe"))
+number = int(input("Anzahl Zahlen"))
+szanzahl = int(input("Anzahl Sonderzeichen"))
