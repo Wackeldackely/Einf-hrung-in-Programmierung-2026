@@ -35,4 +35,8 @@ for x in range(number):
 for x in range(szanzahl):
     neusz = random.choice(SONDERZEICHEN)
 
-passwort = []
+passwort = [neukb, neugb, neunumber, neusz]
+
+"".join(passwort)
+
+print("")
