@@ -39,4 +39,8 @@ passwort = [neukb, neugb, neunumber, neusz]
 
 "".join(passwort)
 
-print("")
+print(
+    f"--- Passwort-Generator --- \n Anzahl Kleinbuchstaben: {kbanzahl} \n Anzahl Großbuchstaben: {gbanzahl} \n Anzahl Zahlen: {number} \n Anzahl Sonderzeichen: {szanzahl} \n \n"
+)
+
+print(f"Dein zufälliges Passwort lautet: {random.shuffle(passwort)}")
