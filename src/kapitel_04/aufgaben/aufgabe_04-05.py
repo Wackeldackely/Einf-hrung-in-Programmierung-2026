@@ -20,6 +20,6 @@ for y in range(maß):
 
         elif 5 <= y <= 9:
             # if 0 <= x <= 14:
-            print("+")
+            print("+", end="")
 
     print(" ")
