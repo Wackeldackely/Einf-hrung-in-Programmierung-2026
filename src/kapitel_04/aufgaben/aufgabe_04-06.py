@@ -34,16 +34,19 @@ passwort = []
 
 for x in range(kbanzahl):
     neukb = random.choice(KLEINBUCHSTABEN)
+    passwort.append(neukb)
 
 for x in range(gbanzahl):
     neugb = random.choice(GROSSBUCHSTABEN)
+    passwort.append(neugb)
 
 for x in range(number):
     neunumber = random.choice(ZAHLEN)
+    passwort.append(neunumber)
 
 for x in range(szanzahl):
     neusz = random.choice(SONDERZEICHEN)
-
+    passwort.append(neusz)
 
 liste = "".join(passwort)
 kombi = random.shuffle(passwort)
