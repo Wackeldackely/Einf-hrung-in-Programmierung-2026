@@ -10,8 +10,7 @@
     #for kriterium, wert in kriterien.items():
      #   gefilterte_liste = list(filter(
       #      lambda m: m.get(kriterium, "unbekannt") == wert 
-       #     , gefilterte_liste
-        ))
+       #     , gefilterte_liste))
     #return gefilterte_liste
 
 #filter_mitarbeiter(mitarbeiter, abteilung="IT", jahre_im_unternehmen=2)
@@ -25,4 +24,4 @@ mitarbeiter = [
 ]
 
 def filter_mitarbeiter(mitarbeiter_liste: list[dict],**kriterien) -> list[dict]:
-    if 
+    if mitarbeiter
