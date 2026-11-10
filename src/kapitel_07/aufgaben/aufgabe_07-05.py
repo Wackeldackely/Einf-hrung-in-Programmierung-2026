@@ -28,5 +28,6 @@ mitarbeiter = [
 def filter_mitarbeiter(mitarbeiter_liste: list[dict], **kriterien) -> list[dict]:
     gefilterte_liste = mitarbeiter_liste[:]
 
+for schlüssel, wert in kriterien.items()
 
 filterung = list(filter(lambda(m:prufe_mitarbeiter(m, kriterien), mitarbeiter_liste)))
