@@ -7,3 +7,6 @@ mitarbeiter = [
     {"name": "Clara", "abteilung": "IT", "jahre_im_unternehmen": 8},
     {"name": "David", "abteilung": "IT", "jahre_im_unternehmen": 2},
 ]
+
+def filter_mitarbeiter(mitarbeiter_liste: list[dict],**kriterien) -> list[dict]:
+    if 
