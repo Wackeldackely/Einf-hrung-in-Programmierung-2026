@@ -22,6 +22,7 @@ mitarbeiter = [
     {"name": "Clara", "abteilung": "IT", "jahre_im_unternehmen": 8},
     {"name": "David", "abteilung": "IT", "jahre_im_unternehmen": 2},
 ]
+#.items() gibt eine ansicht aller Schlüssel-Wert-Paare als Tupel zurück
 
 def filter_mitarbeiter(mitarbeiter_liste: list[dict],**kriterien) -> list[dict]:
     if mitarbeiter
