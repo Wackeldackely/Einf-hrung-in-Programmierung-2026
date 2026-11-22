@@ -26,7 +26,7 @@ class Team:  # 1 seite der beziehung
     # return f"Team: {self.team_name}: {self.mitglied}"
 
     def show_mitglieder(self):  # Gehört ins Team, da ein Team mehrere Mitglieder hat
-        for m in self.mitglied:
+        for m in self.mitglieder:
             print(f"- {m.name}")
 
     def __str__(self) -> str:
