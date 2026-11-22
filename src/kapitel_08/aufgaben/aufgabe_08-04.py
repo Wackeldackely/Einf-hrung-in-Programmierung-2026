@@ -14,10 +14,10 @@ class Mitglied:  # n seite der beziehung
 class Team:  # 1 seite der beziehung
     def __init__(self, team_name):
         self.team_name = team_name
-        self.mitglied = []
+        self.mitglieder = []
 
     def add_mitglied(self, mitglied):
-        self.mitglied.append(mitglied)
+        self.mitglieder.append(mitglied)
         mitglied.team = self  # verknüfung zur klasse mitglied
 
     # def show_mitglieder(self):  # Gehört ins Team, da ein Team mehrere Mitglieder hat
