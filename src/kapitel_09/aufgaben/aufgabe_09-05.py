@@ -13,6 +13,8 @@ class Spieler:
         return f"{input(self.name)}: {input(self.score)}"
 
 
+spieler_liste = []
+
 with open("highscore.plk", "wb") as f:
     pickle.dump(Spieler, f)
     print("Highscore gespeichert!")
