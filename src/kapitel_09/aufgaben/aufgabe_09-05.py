@@ -13,8 +13,9 @@ class Spieler:
 with open("highscore.plk", "wb") as f:
     pickle.dump(Spieler, f)
 
-with open("highscore.plk", "rb") as f:
-    Spieler_reloaded = pickle.load(f)
-
 try:
-    with
+    with open("highscore.plk", "rb") as f:
+        Spieler_reloaded = pickle.load(f)
+
+except FileNotFoundError as e:
+    
