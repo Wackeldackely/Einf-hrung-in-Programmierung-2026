@@ -10,7 +10,8 @@ class Spieler:
         self.score = score
 
     def __repr__(self) -> str:
-        
+        return f""
+
 
 with open("highscore.plk", "wb") as f:
     pickle.dump(Spieler, f)
