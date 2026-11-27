@@ -13,15 +13,15 @@ class Spieler:
         return f"{self.name}: {self.score}"
 
 
-spieler_liste = []
+    spieler_liste = []
 
-while True:
-    name = input("Gib deinen Namen ein: ")
-    if name == " ":
-        break
-    score = int(input("Gib deinen Score ein: "))
+    while True:
+         name = input("Gib deinen Namen ein: ")
+         if name == " ":
+            break
+        score = int(input("Gib deinen Score ein: "))
 
-spieler_liste.append()
+spieler_liste.append(Spieler(name, score))
 
 with open("highscore.plk", "wb") as f:
     pickle.dump(Spieler, f)
