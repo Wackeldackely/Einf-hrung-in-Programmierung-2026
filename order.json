@@ -1,0 +1,18 @@
+{
+    "bestell_nr": "B-2025-42",
+    "kunde": "Max Mustermann",
+    "artikel": [
+        {
+            "produkt_id": "A-123",
+            "name": "Gaming-Maus",
+            "menge": 1,
+            "preis_pro_stueck": 79.99
+        },
+        {
+            "produkt_id": "C-789",
+            "name": "USB-C Kabel",
+            "menge": 3,
+            "preis_pro_stueck": 9.5
+        }
+    ]
+}

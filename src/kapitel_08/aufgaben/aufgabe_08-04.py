@@ -29,12 +29,12 @@ class Team:  # 1 seite der beziehung
         for m in self.mitglied:
             print(f"- {m.name} \n")
 
-        def __str__(self) -> str:
-            # Wandelt die Objekte in der Liste in Namen um
-            namen = ", ".join(m.name for m in self.mitglied)
-            return f"Team: {self.team_name}: {namen}"
+    def __str__(self) -> str:
+        # Wandelt die Objekte in der Liste in Namen um
+        namen = ", ".join(m.name for m in self.mitglied)
+        return f"Team: {self.team_name}: {namen}"
 
-    # mitglieder = [ana, bob, clara]
+    # mitglieder = [anna, bob, clara]
     # oder: print("\n.join(map(lambda m: f"- {m}", mitglieder"))")
 
 
