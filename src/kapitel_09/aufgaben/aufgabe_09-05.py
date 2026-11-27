@@ -10,10 +10,14 @@ class Spieler:
         self.score = score
 
     def __repr__(self) -> str:
-        return f"{input(self.name)}: {input(self.score)}"
+        return f"{self.name}: {self.score}"
 
 
 spieler_liste = []
+
+while True:
+    
+    if 
 
 with open("highscore.plk", "wb") as f:
     pickle.dump(Spieler, f)
