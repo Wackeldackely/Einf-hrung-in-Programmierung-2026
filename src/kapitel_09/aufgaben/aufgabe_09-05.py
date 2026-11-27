@@ -16,8 +16,12 @@ class Spieler:
 spieler_liste = []
 
 while True:
-    
-    if 
+    name = input("Gib deinen Namen ein: ")
+    if name == " ":
+        break
+    score = int(input("Gib deinen Score ein: "))
+
+spieler_liste.append()
 
 with open("highscore.plk", "wb") as f:
     pickle.dump(Spieler, f)
