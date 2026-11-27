@@ -15,3 +15,6 @@ with open("highscore.plk", "wb") as f:
 
 with open("highscore.plk", "rb") as f:
     Spieler_reloaded = pickle.load(f)
+
+try:
+    with
