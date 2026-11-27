@@ -10,7 +10,7 @@ class Spieler:
         self.score = score
 
     def __repr__(self) -> str:
-        return input(self.name)
+        return f"{input(self.name)}: {input(self.score)}"
 
 
 with open("highscore.plk", "wb") as f:
